@@ -1,4 +1,4 @@
-select o.customer_id
+select o.customer_id --test2--
 , c.name
 , c.email
 , min(o.created_at) as first_order_at
